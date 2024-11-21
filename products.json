@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "productName": "Christian Dior Book",
+    "price": 2500000,
+    "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/2bf57c1c-694c-45ff-af2d-2856101f4da0/original/1280x1280/8e1b90e74cdfa829edf6-PhotoRoom_MP-24560-TB-1.jpg"
+  },
+  {
+    "id": 2,
+    "productName": "Hermes",
+    "price": 1530000,
+    "image": "https://img.id.my-best.com/product_images/fefe0f5e1c535fde445179aeb7a897ad.jpg?ixlib=rails-4.3.1&q=70&lossless=0&w=800&h=800&fit=clip&s=01e975269eefedea873f8079fc469833"
+  },
+  {
+    "id": 3,
+    "productName": "Alexander McQueen",
+    "price": 125000,
+    "image": "https://asset.kompas.com/crops/NiNSAGteG9XwVEePbRKPJENxxP0=/0x1535:2400x3135/750x500/data/photo/2022/01/12/61de548be51e2.jpg"
+  },
+  {
+    "id": 2,
+    "productName": "Chanel",
+    "price": 1530000,
+    "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/ecda8386-7df8-48ec-8282-4977acd18820/original/1280x1280/WhatsApp%20Image%202023-11-22%20at%2010.26.45%20-%20Copy-PhotoRoom_6608-CB-242"
+  },
+  {
+    "id": 2,
+    "productName": "Hermes",
+    "price": 1530000,
+    "image": "https://img.id.my-best.com/product_images/fefe0f5e1c535fde445179aeb7a897ad.jpg?ixlib=rails-4.3.1&q=70&lossless=0&w=800&h=800&fit=clip&s=01e975269eefedea873f8079fc469833"
+  },
+  {
+    "id": 2,
+    "productName": "Hermes",
+    "price": 1530000,
+    "image": "https://img.id.my-best.com/product_images/fefe0f5e1c535fde445179aeb7a897ad.jpg?ixlib=rails-4.3.1&q=70&lossless=0&w=800&h=800&fit=clip&s=01e975269eefedea873f8079fc469833"
+  }
+  
+]
