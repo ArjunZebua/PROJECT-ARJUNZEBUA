@@ -138,9 +138,6 @@ export default function ProfilPage() {
                 <button type="button" className="cancel-btn" onClick={() => setIsEditing(false)}>
                   Cancel
                 </button>
-                <button type="button" className="reset-btn" onClick={handleResetForm}>
-                  Reset
-                </button>
               </div>
             </form>
           ) : (
