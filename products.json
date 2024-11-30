@@ -3,37 +3,573 @@
     "id": 1,
     "productName": "Christian Dior Book",
     "price": 2500000,
-    "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/2bf57c1c-694c-45ff-af2d-2856101f4da0/original/1280x1280/8e1b90e74cdfa829edf6-PhotoRoom_MP-24560-TB-1.jpg"
+    "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/2bf57c1c-694c-45ff-af2d-2856101f4da0/original/1280x1280/8e1b90e74cdfa829edf6-PhotoRoom_MP-24560-TB-1.jpg",
+    "category": "books",
+    "bahan":"kulit buaya"
   },
   {
     "id": 2,
     "productName": "Hermes",
     "price": 1530000,
-    "image": "https://img.id.my-best.com/product_images/fefe0f5e1c535fde445179aeb7a897ad.jpg?ixlib=rails-4.3.1&q=70&lossless=0&w=800&h=800&fit=clip&s=01e975269eefedea873f8079fc469833"
+    "image": "https://img.id.my-best.com/product_images/fefe0f5e1c535fde445179aeb7a897ad.jpg?ixlib=rails-4.3.1&q=70&lossless=0&w=800&h=800&fit=clip&s=01e975269eefedea873f8079fc469833",
+    "category": "bags",
+    "bahan":"kulit buaya"
   },
   {
     "id": 3,
     "productName": "Alexander McQueen",
     "price": 125000,
-    "image": "https://asset.kompas.com/crops/NiNSAGteG9XwVEePbRKPJENxxP0=/0x1535:2400x3135/750x500/data/photo/2022/01/12/61de548be51e2.jpg"
+    "image": "https://asset.kompas.com/crops/NiNSAGteG9XwVEePbRKPJENxxP0=/0x1535:2400x3135/750x500/data/photo/2022/01/12/61de548be51e2.jpg",
+    "category": "shoes",
+    "bahan":"kulit buaya"
   },
   {
-    "id": 2,
-    "productName": "Chanel",
-    "price": 1530000,
-    "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/ecda8386-7df8-48ec-8282-4977acd18820/original/1280x1280/WhatsApp%20Image%202023-11-22%20at%2010.26.45%20-%20Copy-PhotoRoom_6608-CB-242"
+    "id": 4,
+    "productName": "Claire'sQuality",
+    "price": 325000,
+    "image": "https://slalu.com/cdn/shop/products/tas_fashion_import_39_9d5110b8-9a23-48d3-b976-a65ae89afa73.jpg?v=1672732019",
+    "category": "shoes",
+    "bahan":"kulit buaya"
   },
   {
-    "id": 2,
-    "productName": "Hermes",
-    "price": 1530000,
-    "image": "https://img.id.my-best.com/product_images/fefe0f5e1c535fde445179aeb7a897ad.jpg?ixlib=rails-4.3.1&q=70&lossless=0&w=800&h=800&fit=clip&s=01e975269eefedea873f8079fc469833"
+    "id": 5,
+    "productName": "Louis Vuitton",
+    "price": 225000,
+    "image": "https://dynamic.zacdn.com/IRtJJzU0PqKLo6vt06HPuuambls=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/louis-vuitton-3317-5717324-1.jpg",
+    "category": "shoes",
+    "bahan":"kulit buaya"
   },
   {
-    "id": 2,
-    "productName": "Hermes",
-    "price": 1530000,
-    "image": "https://img.id.my-best.com/product_images/fefe0f5e1c535fde445179aeb7a897ad.jpg?ixlib=rails-4.3.1&q=70&lossless=0&w=800&h=800&fit=clip&s=01e975269eefedea873f8079fc469833"
-  }
-  
-]
+    "id": 6,
+    "productName": "Gucci",
+    "price": 4500000,
+    "image": "https://images.voila.id/pr:sharp/rs:fit:2048:0/plain/https%3A%2F%2Fassets.voila.id%2Fvoila%2Fimages%2Fproduct%2Fgucci%2F10product-735132-FABLE-9442-Xms-2024-05-07T1008490700.jpeg@webp",
+    "category": "books",
+    "bahan":"kulit buaya"
+  },
+  {
+    "id": 7,
+    "productName": "Balenciaga",
+    "price": 2750000,
+    "image": "https://down-id.img.susercontent.com/file/0469872ca116d2259fb7c36e3e24f730",
+    "category": "books",
+    "bahan":"kulit buaya"
+  },
+  {
+    "id": 8,
+    "productName": "Coach",
+    "price": 5500000,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReT7YAke4pNFcxuj_1CebFNaBqSeyylsW1RA&s",
+    "category": "books",
+    "bahan":"kulit buaya"
+
+  },
+  {
+      "id": 9,
+      "productName": "Chanel Classic handbag",
+      "price": 2500000,
+      "image": "https://www.chanel.com/images///f_auto//-9543227572254.jpg",
+      "category": "handbag",
+      "bahan":"kulit buaya"
+    },
+    {
+      "id": 10,
+      "productName": "Louis Vuitton Neverfull",
+      "price": 3000000,
+      "image": "https://d2lo9udr1bkiz5.cloudfront.net/pub/media/catalog/product/cache/95f9bd50c33f3e666c3409d103adf1f0/i/m/img_2435-photoroom_1.jpg",
+      "category": "handbag",
+      "bahan":"kulit buaya"
+    },
+    {
+      "id": 11,
+      "productName": "Gucci Marmont handbag",
+      "price": 2700000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUFeTEnBDQ3m-3px7t_6gJ9Wa9qncfDO0YXQ&s",
+      "category": "handbag",
+      "bahan":"bulu domba"
+    },
+    {
+      "id": 12,
+      "productName": "Prada Saffiano Tote",
+      "price": 3200000,
+      "image": "https://cdn-images.farfetch-contents.com/23/77/26/23/23772623_53759100_600.jpg",
+      "category": "handbag",
+      "bahan":"bulu domba"
+    },
+    {
+      "id": 13,
+      "productName": "Dior Lady Bag",
+      "price": 4500000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeGn6-9tAknbRiLNBMKoVjR6Df8X52NgdXig&s",
+      "category": "handbag",
+      "bahan":"bulu domba"
+    },
+    {
+      "id": 14,
+      "productName": "Hermès Birkin 30",
+      "price": 10000000,
+      "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/713bbb65-d1eb-493e-8172-dee6c66ef45e/original/1280x1280/1_3893-HB-645",
+      "category": "handbag",
+      "bahan":"bulu domba"
+    },
+    {
+      "id": 15,
+      "productName": "Fendi Peekaboo Mini",
+      "price": 4000000,
+      "image": "https://media.banananina.id/catalog/product/0/1/01085006_d.jpg",
+      "category": "handbag",
+      "bahan":"bulu domba"
+    },
+    {
+      "id": 16,
+      "productName": "YSL Kate Satchel",
+      "price": 3500000,
+      "image": "https://d2lo9udr1bkiz5.cloudfront.net/pub/media/catalog/product/cache/95f9bd50c33f3e666c3409d103adf1f0/1/4/14678sl_saint_laurent_kate_chain_bag_small_front_strap.jpg",
+      "category": "handbag",
+      "bahan":"bulu domba"
+    },
+    {
+      "id": 17,
+      "productName": "Bottega Veneta Pouch",
+      "price": 3800000,
+      "image": "https://images.voila.id/pr:sharp/rs:fit:2048/plain/https%3A%2F%2Fassets.voila.id%2Fvoila%2Fimages%2Fproduct%2Fbottega-veneta%2F1product-652931VCQC12916-Xms-2024-04-04T1508230700.jpeg@webp",
+      "category": "handbag",
+      "bahan":"bulu domba"
+    },
+    {
+      "id": 18,
+      "productName": "Balenciaga Hourglass",
+      "price": 3900000,
+      "image": "https://dynamic.zacdn.com/76MMCyKicmOabV1SsIUVzjG-NKE=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/balenciaga-4993-5939164-1.jpg",
+      "category": "handbag",
+      "bahan":"bulu domba"
+    },
+    {
+      "id": 19,
+      "productName": "Chanel Boy Bag",
+      "price": 4800000,
+      "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/e9773b2d-f7c2-4834-beeb-55667529732b/original/1280x1280/1_2280-SB-1220",
+      "category": "handbag",
+      "bahan":"bulu domba"
+    },
+    {
+      "id": 20,
+      "productName": "Celine Luggage Tote",
+      "price": 3200000,
+      "image": "https://cdn-images.farfetch-contents.com/25/12/79/93/25127993_55188992_1000.jpg",
+      "category": "handbag",
+      "bahan":"bulu domba"
+    },
+    {
+      "id": 21,
+      "productName": "Burberry Title Bag",
+      "price": 2400000,
+      "image": "https://cdn.mywardrobehq.com/b/0/e/18689/646cdc560640b-600.jpg",
+      "category": "handbag",
+      "bahan":"serat kapas"
+    },
+    {
+      "id": 22,
+      "productName": "Versace Virtus Bag",
+      "price": 3600000,
+      "image": "https://i.ebayimg.com/images/g/~ZwAAOSw6D9kx9rW/s-l1200.jpg",
+      "category": "handbag",
+      "bahan":"serat kapas"
+    },
+    {
+      "id": 23,
+      "productName": "Salvatore Ferragamo Studio Bag",
+      "price": 2800000,
+      "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/0d99192b-230e-408c-bf67-1f3e9ddf5cbc/original/1280x1280/IMG-20241005-WA0064-Photoroom_23947-SA-834",
+      "category": "handbag",
+      "bahan":"serat kapas"
+    },
+    {
+      "id": 24,
+      "productName": "Givenchy Antigona",
+      "price": 3300000,
+      "image": "https://media.banananina.id/catalog/product/0/1/01094402_d.jpg",
+      "category": "handbag",
+      "bahan":"serat kapas"
+    },
+    {
+      "id": 25,
+      "productName": "Marc Jacobs Snapshot",
+      "price": 1500000,
+      "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/eed81014-40ee-4eba-ac9e-b0f2e7dbf134/original/1280x1280/1_23947-CB-292",
+      "category": "handbag",
+      "bahan":"serat kapas"
+    },
+    {
+      "id": 26,
+      "productName": "Coach Tabby Shoulder Bag",
+      "price": 1900000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCpcU4CTxVBOuB52V9q9Hwqvem8VAeYtz5BA&s",
+      "category": "handbag",
+      "bahan":"serat kapas"
+    },
+    {
+      "id": 27,
+      "productName": "Kate Spade Sam Tote",
+      "price": 1700000,
+      "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98q-ltf0o2qhyghi6d",
+      "category": "handbag",
+      "bahan":"serat kapas"
+    },
+    {
+      "id": 28,
+      "productName": "Tory Burch Fleming Bag",
+      "price": 2100000,
+      "image": "https://s7d2.scene7.com/is/image/ToryBurchNA/TB_76997_284?$mainline_pdp_desktop$",
+      "category": "handbag",
+      "bahan":"serat kapas"
+    },
+    {
+      "id": 29,
+      "productName": "Givenchy Pandora",
+      "price": 25000000,
+      "image": "https://dynamic.zacdn.com/S9uT4oN_xGMvDvlAOpKOU2clZcc=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/givenchy-0682-1732274-1.jpg",
+      "category": "books",
+      "bahan":"serat kapas"
+    },
+    {
+      "id": 30,
+      "productName": "Chloe Marcie",
+      "price": 31000000,
+      "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/7e280fbb-c97c-4214-9a15-cdfc2248a8f6/original/1280x1280/1_15312-HB-189.jpeg",
+      "category": "books",
+      "bahan":"serat kapas"
+    },
+    {
+      "id": 31,
+      "productName": "Gucci Sylvie",
+      "price": 29000000,
+      "image": "https://media.banananina.id/catalog/product/0/1/01086327_d.jpg",
+      "category": "books",
+      "bahan":"Polyester"
+    },
+    {
+      "id": 32,
+      "productName": "Louis Vuitton Alma",
+      "price": 22000000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb7wTbi1S2SutX7lURncF2qu4H06MVgx44Tw&s",
+      "category": "books",
+      "bahan":"Polyester"
+      
+    },
+    {
+      "id": 33,
+      "productName": "Chanel Gabrielle",
+      "price": 45000000,
+      "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/2a9643f5-fa64-402c-9faa-8e5e5f28e56b/original/1280x1280/IMG_0049_15799-SA-35.JPG",
+      "category": "books",
+      "bahan":"Polyester"
+
+    },
+    {
+      "id": 34,
+      "productName": "Prada Saffiano",
+      "price": 27000000,
+      "image": "https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1636133419/677027_F13HG_1083_001_060_0000_Light-jackie-1961-mini-lizard-shoulder-bag.jpg",
+      "category": "books",
+      "bahan":"Polyester"
+
+    },
+    {
+      "id": 35,
+      "productName": "Saint Laurent Kate",
+      "price": 24000000,
+      "image": "https://dynamic.zacdn.com/DdVE_B-FJ33Mg5wKKhxIiPvUGWc=/filters:quality(70):format(webp)/https://static-id.zacdn.com/p/saint-laurent-6605-5820144-1.jpg",
+      "category": "books",
+      "bahan":"Polyester"
+
+    },
+    {
+      "id": 36,
+      "productName": "Miu Miu Mini Bag",
+      "price": 17000000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkV9hc2coXI4lXUc-P8oUu82_ehjt36Vz_TQ&s",
+      "category": "books",
+      "bahan":" plastik"
+
+    },
+    {
+      "id": 37,
+      "productName": "Fendi Peekaboo Iconic",
+      "price": 40000000,
+      "image": "https://lux-collector.com/cdn/shop/products/image_4c55f015-5896-44f6-828a-8a540b9a6227_1024x1024@2x.jpg?v=1589450027",
+      "category": "books",
+      "bahan":" plastik"
+
+    },
+    {
+      "id": 38,
+      "productName": "Gucci Dionysus Mini",
+      "price": 35000000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5a_ZiwXG65AFoGQD9ILTVaUSpIpl1y0T_Wg&s",
+      "category": "books",
+      "bahan":" plastik"
+
+    },
+    {
+      "id": 39,
+      "productName": "Prada Cahier Bag",
+      "price": 29000000,
+      "image": "https://i.pinimg.com/736x/73/d7/ae/73d7aed7ef54ac0832bb9cd945dfb4cd.jpg",
+      "category": "books",
+      "bahan":" plastik"
+
+    },
+    {
+      "id": 40,
+      "productName": "Chanel Boy Bag",
+      "price": 48000000,
+      "image": "https://images.squarespace-cdn.com/content/v1/580cf7ce6b8f5b3576a3da9f/1650278213323-AEU6H1QR433PLS1SWPZ3/Chanel+Boy+Bag+in+Red+Lambskin+Leather+with+Gold+Hardware.jpg",
+      "category": "books",
+      "bahan":" plastik"
+
+    },
+    {
+      "id": 41,
+      "productName": "Bvlgari Serpenti",
+      "price": 70000000,
+      "image": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2023/4/9/10879ee1-8dbb-47c0-b056-8f6e29e2ca67.jpg",
+      "category": "books",
+      "bahan":" Wol"
+
+    },
+    {
+      "id": 42,
+      "productName": "Celine Triomphe",
+      "price": 37000000,
+      "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/78f6e79e-4f6e-4007-b74b-10915fe4e50c/original/1280x1280/1_22658-SB-6",
+      "category": "books",
+      "bahan":" Wol"
+
+    },
+    {
+      "id": 43,
+      "productName": "Yves Saint Laurent Lou",
+      "price": 20000000,
+      "image": "https://www.cocoon.club/cdn/shop/products/SAINT-LAURENT_Lou-Camera-Bag_100118_FRONT.jpg?v=1620382359",
+      "category": "books",
+      "bahan":" Wol"
+
+    },
+    {
+      "id": 44,
+      "productName": "Balenciaga glass",
+      "price": 45000000,
+      "image": "https://media.banananina.id/catalog/product/0/1/01091532_d.jpg",
+      "category": "books",
+      "bahan":" Wol"
+
+    },
+    {
+      "id": 45,
+      "productName": "Bottega Veneta The Pouch",
+      "price": 38000000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs9ZPjk6Gu3Ae_GAJbwtcK5lwcNmtk8XCr9Q&s",
+      "category": "books",
+      "bahan":" Wol"
+
+    },
+    {
+      "id": 46,
+      "productName": "Chanel 2.55",
+      "price": 80000000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcmaj4VC8T3M_jytphY-lB26tLW2jOKbhQIA&s",
+      "category": "books",
+      "bahan":" Wol"
+
+    },
+    {
+      "id": 47,
+      "productName": "Dior Lady Dior",
+      "price": 55000000,
+      "image": "https://assets.christiandior.com/is/image/diorprod/M0531OUAXM911_E01?$default_GHC$&crop=517,524,937,1286&bfc=on&qlt=85",
+      "category": "books",
+      "bahan":" Wol"
+
+    },
+    {
+      "id": 48,
+      "productName": "Fendi Peekaboo ISeeU",
+      "price": 37000000,
+      "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/a0bdd68a-e5ff-4562-98d2-4d43a60ff4ff/original/1280x1280/1_19465-SB-865.png",
+      "category": "books",
+      "bahan":" Wol"
+
+    },
+    {
+      "id": 49,
+      "productName": "Valentino Rockstud",
+      "price": 41000000,
+      "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/3718ef3e-a875-4eef-9bc7-80e44e79e402/original/1280x1280/WhatsApp%20Image%202024-06-11%20at%2016.03-Photoroom%20%281%29_25556-SA-198",
+      "category": "books",
+      "bahan":" sutera"
+
+    },
+    {
+      "id": 50,
+      "productName": "Celine Belt Bag",
+      "price": 36000000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRglDMvA4giF6ATnV6Oo3MOluxXwz35N_0FNw&s",
+      "category": "books",
+      "bahan":" sutera"
+
+    },
+    {
+      "id": 51,
+      "productName": "Gucci Jackie 1961",
+      "price": 28000000,
+      "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/21bd8be4-8c27-45dd-9f14-39632193de36/original/1280x1280/r_636706UKVBD9597_1-Photoroom_19465-SB-2827",
+      "category": "books",
+      "bahan":" sutera"
+
+    },
+    {
+      "id": 52,
+      "productName": "Loewe Puzzle",
+      "price": 33000000,
+      "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/10acee58-1f38-4a6e-9847-0b0e5da47edb/original/1280x1280/r_A510P60X442727_1-Photoroom_19465-SA-2649",
+      "category": "books",
+      "bahan":" sutera"
+
+    },
+    {
+      "id": 53,
+      "productName": "Marc Jacobs The Editor",
+      "price": 22000000,
+      "image": "https://cdn-images.farfetch-contents.com/marc-jacobs-the-editor-crossbody-bag_14827337_24901117_1000.jpg",
+      "category": "books",
+      "bahan":" sutera"
+
+    },
+    {
+      "id": 54,
+      "productName": "Balenciaga City Bag",
+      "price": 28000000,
+      "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/5/26/30be3836-4ced-448a-9b77-da0652c3a02c.jpg",
+      "category": "books",
+      "bahan":" sutera"
+
+    },
+    {
+      "id": 55,
+      "productName": "Tory Burch Perry Triple-Compartment",
+      "price": 21000000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe7roNpJdlEOKPj210SxRcevJjSGXu-TEj6A&s",
+      "category": "books",
+      "bahan":" sutera"
+
+    },
+    {
+      "id": 56,
+      "productName": "Fendi Kan I",
+      "price": 32000000,
+      "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/34abd6dc-5351-4eec-95dc-6a0a9add78e3/original/1280x1280/1_3833-CB-1476",
+      "category": "books",
+      "bahan":" sutera"
+
+    },
+    {
+      "id": 57,
+      "productName": "Chloé Tess",
+      "price": 27000000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9cF7hpzF8b3vDGdovWCDFy2H869vdY9PSmg&s",
+      "category": "books",
+      "bahan":" sutera"
+
+    },
+    {
+      "id": 58,
+      "productName": "Miu Miu Matelassé",
+      "price": 35000000,
+      "image": "https://cdn-images.farfetch-contents.com/19/67/26/55/19672655_44059151_1000.jpg",
+      "category": "books",
+      "bahan":" sutera"
+
+    },
+    {
+      "id": 59,
+      "productName": "Marc Jacobs Snapshot",
+      "price": 23000000,
+      "image": "https://images-cdn.ubuy.co.id/65b52e67e3803c2179620092-marc-jacobs-snapshot-small-camera-bag.jpg",
+      "category": "books",
+      "bahan":" sutera"
+
+    },
+    {
+      "id": 60,
+      "productName": "Dior Saddle",
+      "price": 56000000,
+      "image": "https://cdn-images.farfetch-contents.com/21/24/67/31/21246731_51268949_600.jpg",
+      "category": "books",
+      "bahan":" Rami (Jute)"
+
+    },
+    {
+      "id": 61,
+      "productName": "Yves Saint Laurent Niki",
+      "price": 32000000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlacX2dNtbrFB9EOJLc7XqKptGKP6Zj8l2sg&s",
+      "category": "books",
+      "bahan":" Rami (Jute)"
+
+    },
+    {
+      "id": 62,
+      "productName": "Bottega Veneta Arco",
+      "price": 35000000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLb1D_heNajBSWlsTWKakCx2QfBjyjPfoVGw&s",
+      "category": "books",
+      "bahan":" Rami (Jute)"
+
+    },
+    {
+      "id": 63,
+      "productName": "Coach Tabby",
+      "price": 24000000,
+      "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/5/31/ab0c4c33-116c-4873-a2be-f909be6af8b2.jpg",
+      "category": "books",
+      "bahan":" Rami (Jute)"
+
+    },
+    {
+      "id": 64,
+      "productName": "Chanel 19",
+      "price": 58000000,
+      "image": "https://tinkerlust.s3.ap-southeast-1.amazonaws.com/products/2bbc15c6-2e47-42f3-8b0f-571b354d5929/original/1280x1280/IMG_0157_16107-SB-81.JPG",
+      "category": "books",
+      "bahan":" Rami (Jute)"
+
+    },
+    {
+      "id": 65,
+      "productName": "Louis Vuitton Speedy",
+      "price": 25000000,
+      "image": "https://media.banananina.id/catalog/product/0/1/01098570_d.jpg",
+      "category": "books",
+      "bahan":" Rami (Jute)"
+
+    },
+    {
+      "id": 66,
+      "productName": "Gucci GG Marmont",
+      "price": 28000000,
+      "image": "https://down-id.img.susercontent.com/file/sg-11134201-22110-4f0iwt9wmojv48",
+      "category": "books",
+      "bahan":" Rami (Jute)"
+
+    },
+    {
+      "id": 67,
+      "productName": "Bvlgari Serpenti Forever",
+      "price": 78000000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU9_wIzKH9JDYBkzyNPFYT1i-y0aI7yDxsOw&s",
+      "category": "books",
+      "bahan":" Rami (Jute)"
+
+    }
+  ]

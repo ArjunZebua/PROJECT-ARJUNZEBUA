@@ -8,12 +8,29 @@ export default function Login() {
   const [password, setPassword] = useState("");
 
   function handleLogin(e) {
-    e.preventDefault();
-    if (username === "user" && password === "password") {
+    e.preventDefault(); // Mencegah form untuk reload halaman
+
+    // Validasi: pastikan username dan password tidak kosong
+    if (!username || !password) {
+      alert("Please enter both username and password.");
+      return;
+    }
+
+    // Ambil data pengguna yang ada dari localStorage
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+
+    // Cari pengguna berdasarkan username
+    const user = users.find(user => user.username === username);
+
+    // Cek apakah username ada dan password cocok
+    if (user && user.password === password) {
+      // Jika login berhasil
       localStorage.setItem("isLoggedIn", "true");
-      navigate("/");
+      alert("Login successful!");
+      navigate("/"); // Arahkan ke halaman home setelah login berhasil
     } else {
-      alert("Username atau password salah");
+      // Jika login gagal
+      alert("Username or password is incorrect.");
     }
   }
 
@@ -52,7 +69,10 @@ export default function Login() {
         <button type="submit" className="submit-button">
           Login
         </button>
-        <p className="footer-text"> dont have an account? <a href="/signup">Sign up</a></p>
+
+        <p className="footer-text" onClick={() => navigate("/signup")}>
+          Dont have an account? <a href="/signup">Sign up</a>
+        </p>
       </form>
     </div>
   );

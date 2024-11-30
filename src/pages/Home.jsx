@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 export default function Home() {
   const [showVideo, setShowVideo] = useState(false);
+  const videoRef = useRef(null); // Referensi untuk video
 
   const handleWatchVideo = () => {
     setShowVideo(true); // Tampilkan video
@@ -9,6 +10,8 @@ export default function Home() {
 
   const handleCloseVideo = () => {
     setShowVideo(false); // Sembunyikan video
+    videoRef.current.pause(); // Hentikan video ketika ditutup
+    videoRef.current.currentTime = 0; // Reset video ke awal
   };
 
   return (
@@ -40,14 +43,18 @@ export default function Home() {
             <button className="close-button" onClick={handleCloseVideo}>
               ✖
             </button>
-            <iframe
-              src="https://www.youtube.com/embed/0e13OBThPiM"
-              title="Example Video"
-              style={{ border: "none" }} // Menggantikan frameBorder
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="video-frame"
-            ></iframe>
+            <video
+              ref={videoRef} // Menambahkan referensi ke video
+              src="/video/Behind the Scenes_ Making of the Nano Tote.mp4"
+              autoPlay // Video langsung diputar
+              style={{
+                width: "100%",
+                borderRadius: "10px",
+                objectFit: "cover", // Optional: To make sure the video fits well in the modal
+              }}
+            >
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       )}

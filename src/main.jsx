@@ -8,35 +8,43 @@ import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Product from './components/Product.jsx';
 import Login from './pages/Login.jsx';
+import Register from './pages/Register.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
+import ProfilPage from './pages/Profil.jsx';
 
 const router = createBrowserRouter([
   {
-    path:"/login",
-    element:<Login/>
+    path: "/login",
+    element: <Login />
   },
   {
-    path:"/",
-    element :(
-    <ProtectedRoute>
-    <App/>
-    </ProtectedRoute>
+    path: "/signup",
+    element: <Register />
+  },
+  {
+    path: "/",
+    element: (
+      <ProtectedRoute>
+        <App />
+      </ProtectedRoute>
     ),
-    children:[
+    children: [
       {
-        path:"/",
-        element: <Home/>
+        path: "/", // Home path
+        element: <Home />
       },
       {
-        path:"/about",
-        element: <About/>
+        path: "/profil", // Profil path
+        element: <ProfilPage />
       },
       {
-        path:"/product",
-        element: <Product/>
-
+        path: "/about", // About path
+        element: <About />
+      },
+      {
+        path: "/product", // Product path
+        element: <Product />
       }
-
     ]
   }
 ]);
@@ -46,4 +54,3 @@ createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </StrictMode>
 );
-
